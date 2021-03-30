@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:bionic-scm
+FROM buildpack-deps:18.10-scm
 
 RUN set -ex; \
 	apt-get update; \
