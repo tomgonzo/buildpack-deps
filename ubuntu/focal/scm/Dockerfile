@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM buildpack-deps:focal-curl
+FROM buildpack-deps:groovy-curl
 
 # procps is very common in build systems, and is a reasonably small package
 RUN apt-get update && apt-get install -y --no-install-recommends \
