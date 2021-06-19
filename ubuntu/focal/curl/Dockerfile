@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM ubuntu:focal
+FROM ubuntu:groovy-20210614
 
 RUN set -eux; \
 	apt-get update; \
